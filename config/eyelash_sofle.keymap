@@ -16,7 +16,7 @@
 
 &msc {
     acceleration-exponent = <1>;      // 0
-    time-to-max-speed-ms = <100>;       // 300
+    time-to-max-speed-ms = <900>;       // 300
     delay-ms = <0>;                   // 0
 };
 
@@ -50,8 +50,8 @@
 &kp PRINTSCREEN  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp K_MUTE            &kp ENTER  &kp SPACE  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
-            display-name = "LAYER0";
+            display-name = "LAYER_00";
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_1 {
@@ -63,7 +63,7 @@
 &kp PRINTSCREEN  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
-            display-name = "layer1";
+            display-name = "LAYER_01";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -76,6 +76,7 @@
 &trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
 
+            display-name = "LAYER_02";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -87,6 +88,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            display-name = "LAYER_03";
         };
     };
 };
