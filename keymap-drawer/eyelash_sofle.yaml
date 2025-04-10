@@ -57,7 +57,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-return$$', h: LAYER_01}
+  - {t: '$$mdi:keyboard-space$$', h: LAYER_01}
   - $$mdi:backspace-reverse-outline$$
   - MUTE
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
