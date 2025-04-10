@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:apple-keyboard-shift$$
   - A
   - S
   - D
@@ -39,8 +39,8 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: \, s: '|'}
+  - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
@@ -52,19 +52,19 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: \, s: '|'}
-  - PRINTSCREEN
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
-  - LAYER_01
-  - $$mdi:keyboard-space$$
-  - MUTE
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
-  - LAYER_02
   - $$mdi:apple-keyboard-shift$$
+  - PRINTSCREEN
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-return$$', h: LAYER_01}
   - $$mdi:backspace-reverse-outline$$
+  - MUTE
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-space$$', h: LAYER_02}
+  - $$mdi:apple-keyboard-option$$
+  - {t: '-', s: _}
+  - $$mdi:apple-keyboard-control$$
   LAYER_01:
   - {t: '`', s: '~'}
   - F1
@@ -191,8 +191,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   LAYER_03:
