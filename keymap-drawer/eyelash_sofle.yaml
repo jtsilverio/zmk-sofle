@@ -62,7 +62,7 @@ layers:
   - MUTE
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-space$$', h: LAYER_02}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '=', s: +}
   - {t: '-', s: _}
   - $$mdi:apple-keyboard-control$$
   LAYER_01:
