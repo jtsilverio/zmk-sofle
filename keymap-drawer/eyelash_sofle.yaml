@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '-', s: _}
   - {t: '`', s: '~'}
   - Q
   - W
@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - {t: '-', s: _}
+  - {t: \, s: '|'}
   - $$mdi:keyboard-tab$$
   - A
   - S
@@ -57,11 +57,11 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:apple-keyboard-control$$', h: SYMBOLS_AND_NUMBERS}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: SYMBOLS_AND_NUMBERS}
+  - $$mdi:keyboard-space$$
   - MUTE
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', h: NAVIGATION_AND_SHORTCUTS}
+  - {t: '$$mdi:keyboard-return$$', h: NAVIGATION_AND_SHORTCUTS}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
@@ -127,7 +127,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - KP 0
+  - '0'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   NAVIGATION_AND_SHORTCUTS:
