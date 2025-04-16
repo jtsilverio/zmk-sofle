@@ -54,17 +54,17 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - PRINTSCREEN
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: SYMBOLS_AND_NUMBERS}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - MUTE
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', h: NAVIGATION_AND_SHORTCUTS}
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-space$$', h: NAVIGATION_AND_SHORTCUTS}
   - $$mdi:apple-keyboard-control$$
+  - RIGHT GUI
+  - $$mdi:apple-keyboard-option$$
   SYMBOLS_AND_NUMBERS:
   - $$mdi:keyboard-esc$$
   - F1
@@ -149,7 +149,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - MENU
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - PgUp
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PgUp
   - Ctl+$$mdi:arrow-left-bold$$
@@ -162,7 +162,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - _
-  - $$mdi:alpha-w-box$$
+  - PgDn
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PgDn
   - $$mdi:arrow-left-bold$$
