@@ -204,10 +204,7 @@ parse_config:
       tap: $$mdi:apple-keyboard-shift$$
       hold: $$mdi:toggle-switch$$
 
-    # Empty
-    "&none":
-      tap: $$mdi:minus-circle-outline$$
-      type: none
+
 
     # Whitespace
     "&bkspc_del":
