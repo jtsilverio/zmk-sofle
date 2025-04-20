@@ -40,7 +40,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', h: '$$mdi:apple-keyboard-shift$$', s: '"'}
-  - $$mdi:keyboard-esc$$
+  - $$mdi:apple-keyboard-control$$
   - {t: Z, h: '$$mdi:apple-keyboard-option$$'}
   - X
   - C
@@ -57,13 +57,13 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:keyboard-return$$', h: SYMBOLS_AND_NUMBERS}
+  - {t: '$$mdi:backspace$$', h: SYMBOLS_AND_NUMBERS}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - MUTE
-  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-space$$', h: NAVIGATION_AND_SHORTCUTS}
   - $$mdi:apple-keyboard-shift$$
-  - RIGHT GUI
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   SYMBOLS_AND_NUMBERS:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -260,3 +260,6 @@ layers:
   - ''
   - ''
   - ''
+combos:
+- p: [34, 35]
+  k: $$mdi:keyboard-esc$$
