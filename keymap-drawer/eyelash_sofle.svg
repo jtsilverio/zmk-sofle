@@ -180,10 +180,15 @@ path.combo {
 /* For default sytles, see https://github.com/caksoylar/keymap-drawer/blob/main/keymap_drawer/config.py#L85 */
 
 svg.keymap {
-  font-family: Ubuntu Mono, Inconsolata, Consolas, Liberation Mono, Menlo, monospace;
+  font-family: Inter, Ubuntu Mono, Inconsolata, Consolas, Liberation Mono, Menlo, monospace;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: normal;
   text-rendering: optimizeLegibility;
+}
+
+/* default key styling */
+rect.key {
+    fill: #000000;
 }
 
 /* Color accent for held keys */
