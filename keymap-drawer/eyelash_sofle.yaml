@@ -57,15 +57,15 @@ layers:
   - LEFT ALT
   - LEFT GUI
   - LEFT CONTROL
-  - {t: '$$mdi:backspace$$', h: SYMBOLS_AND_NUMBERS}
+  - {t: '$$mdi:backspace$$', h: SYM_NUM}
   - {t: '$$mdi:keyboard-tab$$', h: LEFT CONTROL}
   - MUTE
   - {t: '$$mdi:keyboard-return$$', h: LEFT SHIFT}
-  - {t: '$$mdi:keyboard-space$$', h: NAVIGATION_AND_SHORTCUTS}
+  - {t: '$$mdi:keyboard-space$$', h: NAV_SHORTCUTS}
   - RIGHT SHIFT
   - LEFT GUI
   - RIGHT ALT
-  SYMBOLS_AND_NUMBERS:
+  SYM_NUM:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
@@ -130,7 +130,7 @@ layers:
   - '0'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  NAVIGATION_AND_SHORTCUTS:
+  NAV_SHORTCUTS:
   - ''
   - ''
   - ''
@@ -195,7 +195,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  KB_CONTROL:
+  KB_CNTRL:
   - '&bootloader'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}

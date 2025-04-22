@@ -521,8 +521,8 @@ rect.held, rect.combo.held {
 <g transform="translate(314, 283) rotate(30.0)" class="key keypos-56">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:backspace"/>
-<a href="#SYMBOLS_AND_NUMBERS">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 60%">SYMBOLS_A…</tspan></text>
+<a href="#SYM_NUM">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 86%">SYM_NUM</tspan></text>
 </a></g>
 <g transform="translate(389, 294) rotate(30.0)" class="key keypos-57">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -541,8 +541,8 @@ rect.held, rect.combo.held {
 <g transform="translate(610, 283) rotate(-30.0)" class="key keypos-60">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
-<a href="#NAVIGATION_AND_SHORTCUTS">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 60%">NAVIGATIO…</tspan></text>
+<a href="#NAV_SHORTCUTS">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 60%">NAV_SHORT…</tspan></text>
 </a></g>
 <g transform="translate(672, 259)" class="key keypos-61">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -568,8 +568,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(30, 388)" class="layer-SYMBOLS_AND_NUMBERS">
-<text x="0" y="28" class="label" id="SYMBOLS_AND_NUMBERS">SYMBOLS_AND_NUMBERS:</text>
+<g transform="translate(30, 388)" class="layer-SYM_NUM">
+<text x="0" y="28" class="label" id="SYM_NUM">SYM_NUM:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -841,8 +841,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(30, 776)" class="layer-NAVIGATION_AND_SHORTCUTS">
-<text x="0" y="28" class="label" id="NAVIGATION_AND_SHORTCUTS">NAVIGATION_AND_SHORTCUTS:</text>
+<g transform="translate(30, 776)" class="layer-NAV_SHORTCUTS">
+<text x="0" y="28" class="label" id="NAV_SHORTCUTS">NAV_SHORTCUTS:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1091,8 +1091,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1165)" class="layer-KB_CONTROL">
-<text x="0" y="28" class="label" id="KB_CONTROL">KB_CONTROL:</text>
+<g transform="translate(30, 1165)" class="layer-KB_CNTRL">
+<text x="0" y="28" class="label" id="KB_CNTRL">KB_CNTRL:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
