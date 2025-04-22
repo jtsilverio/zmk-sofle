@@ -149,26 +149,26 @@ layers:
   - ''
   - MENU
   - ''
-  - PgUp
+  - ''
   - {t: '$$mdi:transfer$$', type: trans}
-  - PgUp
   - Ctl+$$mdi:arrow-left-bold$$
-  - $$mdi:arrow-up-bold$$
+  - PgDn
+  - PgUp
   - Ctl+$$mdi:arrow-right-bold$$
-  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace-reverse-outline$$
+  - ''
   - {t: '$$mdi:transfer$$', type: trans}
   - LEFT CONTROL
   - LEFT ALT
   - LEFT SHIFT
   - _
-  - PgDn
+  - ''
   - {t: '$$mdi:transfer$$', type: trans}
-  - PgDn
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - ''
   - {t: '$$mdi:transfer$$', type: trans}
   - UNDO
@@ -178,9 +178,9 @@ layers:
   - ''
   - {t: '$$mdi:transfer$$', type: trans}
   - ''
+  - END
   - HOME
   - ''
-  - END
   - ''
   - ''
   - {t: '$$mdi:transfer$$', type: trans}
