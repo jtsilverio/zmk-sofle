@@ -236,9 +236,9 @@ layers:
   - RGB EFF
   - ''
   - ''
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - '&sys_reset'
   - ''
-  - $$mdi:progress-download$$
+  - '&bootloader'
   - ''
   - ''
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -246,7 +246,7 @@ layers:
   - ''
   - RGB SAI
   - RGB SAD
-  - $$mdi:progress-download$$
+  - '&bootloader'
   - ''
   - ''
   - ''
