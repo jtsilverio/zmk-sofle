@@ -245,12 +245,12 @@ parse_config:
       shifted: $$mdi:bluetooth-connect$$
       tap: ""
       hold: $$mdi:arrow-down-bold$$
-    # Reset
-    "&sys_reset":
-      type: bootloader
-      tap: $$mdi:backup-restore$$
-    "&bootloader":
-      tap: $$mdi:progress-download$$
+    # # Reset
+    # "&sys_reset":
+    #   type: bootloader
+    #   tap: $$mdi:backup-restore$$
+    # "&bootloader":
+    #   tap: $$mdi:progress-download$$
 
   # ZMK
   zmk_keycode_map:
