@@ -73,11 +73,11 @@
 
         NAV_SHORTCUTS {
             bindings = <
-&none   &none             &none         &none           &none        &none            &trans  &none          &none         &none         &none          &none              &none
-&trans  &kp INS           &none         &kp K_MENU      &none        &kp PAGE_UP      &trans  &kp PAGE_UP    &kp LC(LEFT)  &kp UP_ARROW  &kp LC(RIGHT)  &kp LC(BACKSPACE)  &kp BACKSPACE
-&trans  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp UNDER    &kp PAGE_DOWN    &trans  &kp PAGE_DOWN  &kp LEFT      &kp DOWN      &kp RIGHT      &kp DELETE         &none
-&trans  &kp K_UNDO        &kp K_CUT     &kp K_COPY      &kp K_PASTE  &none            &trans  &none          &kp HOME      &none         &kp END        &none              &none
-&trans  &trans            &trans        &trans          &trans       &trans           &trans  &trans         &trans        &trans        &trans         &trans
+&none   &none             &none         &none           &none        &none     &trans  &none               &none          &none         &none          &none          &none
+&trans  &kp INS           &none         &kp K_MENU      &none        &none     &trans  &kp LC(LEFT_ARROW)  &kp PAGE_DOWN  &kp PAGE_UP   &kp LC(RIGHT)  &kp DELETE     &none
+&trans  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp UNDER    &none     &trans  &kp LEFT            &kp DOWN       &kp UP_ARROW  &kp RIGHT      &kp BACKSPACE  &none
+&trans  &kp K_UNDO        &kp K_CUT     &kp K_COPY      &kp K_PASTE  &none     &trans  &none               &kp END        &kp HOME      &none          &none          &none
+&trans  &trans            &trans        &trans          &trans       &trans    &trans  &trans              &trans         &trans        &trans         &trans
             >;
 
             display-name = "NAV_SHORTCUTS";
