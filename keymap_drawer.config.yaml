@@ -28,7 +28,7 @@ draw_config:
 
     /* default key styling */
     rect.key {
-        fill: #000000;
+        fill: #fff;
     }
 
     /* Color accent for held keys */
