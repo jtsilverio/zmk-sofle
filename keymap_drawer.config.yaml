@@ -26,11 +26,6 @@ draw_config:
       text-rendering: optimizeLegibility;
     }
 
-    /* default key styling */
-    rect.key {
-        fill: #fff;
-    }
-
     /* Color accent for held keys */
     rect.held, rect.combo.held {
         fill: #ffc;
