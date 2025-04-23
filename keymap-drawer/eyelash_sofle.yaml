@@ -17,38 +17,38 @@ layers:
   - {t: '`', s: '~'}
   - Q
   - W
-  - E
-  - R
+  - F
+  - P
   - T
   - $$mdi:volume-low$$
-  - Y
+  - J
+  - L
   - U
-  - I
-  - O
-  - P
+  - Y
+  - {t: ;, s: ':'}
   - {t: \, s: '|'}
   - {t: '$$mdi:backspace$$', h: LEFT SHIFT}
   - A
+  - R
   - S
-  - D
-  - F
+  - T
   - G
   - $$mdi:brightness-7$$
-  - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
+  - M
+  - N
+  - E
+  - I
+  - O
   - {t: '''', h: RIGHT SHIFT, s: '"'}
   - $$mdi:keyboard-esc$$
-  - {t: Z, h: LEFT ALT}
+  - Z
   - X
   - C
+  - D
   - V
-  - B
   - $$mdi:brightness-5$$
-  - N
-  - M
+  - K
+  - H
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
