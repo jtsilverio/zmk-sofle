@@ -151,9 +151,9 @@ layers:
   - ''
   - ''
   - {t: '$$mdi:transfer$$', type: trans}
+  - PG UP
   - Ctl+$$mdi:arrow-left-bold$$
-  - PgDn
-  - PgUp
+  - $$mdi:arrow-up-bold$$
   - Ctl+$$mdi:arrow-right-bold$$
   - $$mdi:backspace-reverse-outline$$
   - ''
@@ -164,9 +164,9 @@ layers:
   - _
   - ''
   - {t: '$$mdi:transfer$$', type: trans}
+  - PgDn
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - ''
