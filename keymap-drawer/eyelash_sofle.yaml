@@ -19,7 +19,7 @@ layers:
   - W
   - F
   - P
-  - G
+  - B
   - $$mdi:volume-low$$
   - J
   - L
@@ -32,9 +32,9 @@ layers:
   - R
   - S
   - T
-  - D
+  - G
   - $$mdi:brightness-7$$
-  - H
+  - M
   - N
   - E
   - I
@@ -44,11 +44,11 @@ layers:
   - Z
   - X
   - C
+  - D
   - V
-  - B
   - $$mdi:brightness-5$$
   - K
-  - M
+  - H
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
