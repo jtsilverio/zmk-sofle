@@ -260,6 +260,3 @@ layers:
   - ''
   - ''
   - ''
-combos:
-- p: [34, 35]
-  k: $$mdi:keyboard-esc$$
