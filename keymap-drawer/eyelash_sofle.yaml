@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   BASE:
-  - {t: '=', s: +}
+  - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -40,8 +40,8 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', h: RIGHT SHIFT, s: '"'}
-  - $$mdi:keyboard-esc$$
-  - {t: Z, h: LEFT ALT}
+  - LEFT CONTROL
+  - Z
   - X
   - C
   - V
@@ -82,9 +82,9 @@ layers:
   - {t: '`', s: '~'}
   - '!'
   - '@'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - '#'
-  - $
-  - '%'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -95,9 +95,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - ^
   - '&'
-  - '*'
   - (
   - )
+  - '*'
   - {t: '$$mdi:transfer$$', type: trans}
   - '4'
   - {t: '5', s: '%'}
@@ -105,12 +105,12 @@ layers:
   - +
   - '*'
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-esc$$
-  - ''
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: \, s: '|'}
+  - $
   - '{'
   - '}'
+  - '%'
   - {t: '$$mdi:transfer$$', type: trans}
   - '1'
   - '2'
@@ -126,10 +126,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '0'
+  - {t: '$$mdi:transfer$$', type: trans}
   - '0'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - .
   NAV_SHORTCUTS:
   - ''
   - ''
