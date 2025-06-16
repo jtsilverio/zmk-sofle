@@ -47,11 +47,11 @@
 
         BASE {
             bindings = <
-&kp EQUAL                 &kp N1          &kp N2        &kp N3            &kp N4           &kp N5                  &kp C_VOLUME_UP       &kp N6                &kp N7       &kp N8           &kp N9        &kp N0         &kp MINUS
-&kp GRAVE                 &kp Q           &kp W         &kp E             &kp R            &kp T                   &kp C_VOLUME_DOWN     &kp Y                 &kp U        &kp I            &kp O         &kp P          &kp BACKSLASH
-&mt LEFT_SHIFT BACKSPACE  &kp A           &kp S         &kp D             &kp F            &kp G                   &kp C_BRIGHTNESS_DEC  &kp H                 &kp J        &kp K            &kp L         &kp SEMICOLON  &mt RIGHT_SHIFT APOSTROPHE
-&kp ESCAPE                &mt LEFT_ALT Z  &kp X         &kp C             &kp V            &kp B                   &kp C_BRIGHTNESS_INC  &kp N                 &kp M        &kp COMMA        &kp DOT       &kp FSLH       &kp LEFT_CONTROL
-&kp PRINTSCREEN           &kp LEFT_ALT    &kp LEFT_GUI  &kp LEFT_CONTROL  &lt 1 BACKSPACE  &mt LEFT_CONTROL TAB    &kp K_MUTE            &mt LEFT_SHIFT ENTER  &lt 2 SPACE  &kp RIGHT_SHIFT  &kp LEFT_GUI  &kp RIGHT_ALT
+&kp ESCAPE                &kp N1        &kp N2        &kp N3            &kp N4           &kp N5                  &kp C_VOLUME_UP       &kp N6                &kp N7       &kp N8           &kp N9        &kp N0         &kp MINUS
+&kp GRAVE                 &kp Q         &kp W         &kp E             &kp R            &kp T                   &kp C_VOLUME_DOWN     &kp Y                 &kp U        &kp I            &kp O         &kp P          &kp BACKSLASH
+&mt LEFT_SHIFT BACKSPACE  &kp A         &kp S         &kp D             &kp F            &kp G                   &kp C_BRIGHTNESS_DEC  &kp H                 &kp J        &kp K            &kp L         &kp SEMICOLON  &mt RIGHT_SHIFT APOSTROPHE
+&kp LEFT_CONTROL          &kp Z         &kp X         &kp C             &kp V            &kp B                   &kp C_BRIGHTNESS_INC  &kp N                 &kp M        &kp COMMA        &kp DOT       &kp FSLH       &kp LEFT_CONTROL
+&kp PRINTSCREEN           &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_CONTROL  &lt 1 BACKSPACE  &mt LEFT_CONTROL TAB    &kp K_MUTE            &mt LEFT_SHIFT ENTER  &lt 2 SPACE  &kp RIGHT_SHIFT  &kp LEFT_GUI  &kp RIGHT_ALT
             >;
 
             display-name = "BASE";
@@ -60,11 +60,11 @@
 
         SYM_NUM {
             bindings = <
-&trans     &kp F1           &kp F2            &kp F3             &kp F4                &kp F5                   &trans  &kp F6        &kp F7        &kp F8        &kp F9      &kp F10       &kp F11
-&kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN       &kp HASH           &kp DOLLAR            &kp PERCENT              &trans  &kp N7        &kp N8        &kp N9        &kp MINUS   &kp SLASH     &kp F12
-&trans     &kp CARET        &kp AMPERSAND     &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS    &kp ASTERISK  &kp BACKSPACE
-&kp ESC    &none            &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE          &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &kp EQUAL     &kp ENTER
-&trans     &trans           &trans            &trans             &trans                &trans                   &trans  &trans        &kp NUMBER_0  &kp NUMBER_0  &trans      &trans
+&trans     &kp F1           &kp F2         &kp F3                &kp F4                 &kp F5          &trans  &kp F6        &kp F7        &kp F8        &kp F9      &kp F10       &kp F11
+&kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HASH        &trans  &kp N7        &kp N8        &kp N9        &kp MINUS   &kp SLASH     &kp F12
+&trans     &kp CARET        &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK    &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS    &kp ASTERISK  &kp BACKSPACE
+&trans     &kp BACKSLASH    &kp DOLLAR     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PERCENT     &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &kp EQUAL     &kp ENTER
+&trans     &trans           &trans         &trans                &trans                 &trans          &trans  &trans        &trans        &kp NUMBER_0  &trans      &kp PERIOD
             >;
 
             display-name = "SYM_NUM";
