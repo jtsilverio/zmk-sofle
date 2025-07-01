@@ -57,10 +57,10 @@ layers:
   - LEFT CONTROL
   - LEFT GUI
   - LEFT ALT
-  - {t: '$$mdi:backspace$$', h: layer1}
+  - {t: '$$mdi:keyboard-return$$', h: layer1}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-space$$', h: NAV_SHORTCUTS}
   - RIGHT ALT
   - LEFT GUI
