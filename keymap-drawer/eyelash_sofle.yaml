@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - {t: \, s: '|'}
+  - {t: '=', s: +}
   - {t: '$$mdi:keyboard-esc$$', h: LEFT SHIFT}
   - A
   - S
@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - LEFT CONTROL
+  - {t: \, s: '|'}
   - $$mdi:volume-off$$
   - LEFT CONTROL
   - LEFT GUI
