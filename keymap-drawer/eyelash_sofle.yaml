@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: '=', s: +}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:keyboard-tab$$'}
+  - {t: LEFT SHIFT, h: '$$mdi:keyboard-tab$$'}
   - A
   - S
   - D
