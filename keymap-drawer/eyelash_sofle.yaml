@@ -54,17 +54,17 @@ layers:
   - {t: /, s: '?'}
   - {t: \, s: '|'}
   - $$mdi:volume-off$$
-  - LEFT CONTROL
   - LEFT GUI
   - LEFT ALT
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:backspace-reverse-outline$$', h: layer1}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: NAV_SHORTCUTS}
   - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-tab$$
   - RIGHT ALT
-  - LEFT GUI
-  - LEFT SHIFT
+  - RIGHT CONTROL
   layer1:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
