@@ -25,7 +25,7 @@ layers:
   - U
   - I
   - O
-  - P
+  - {t: ;, s: ':'}
   - {t: '=', s: +}
   - {t: '$$mdi:keyboard-tab$$', h: LEFT SHIFT}
   - A
@@ -38,7 +38,7 @@ layers:
   - J
   - K
   - L
-  - {t: ;, s: ':'}
+  - P
   - {t: '''', h: RIGHT SHIFT, s: '"'}
   - LEFT CONTROL
   - Z
