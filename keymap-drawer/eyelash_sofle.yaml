@@ -58,14 +58,14 @@ layers:
   - LEFT ALT
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: layer1}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: SYM_NUM}
   - {t: COLEMAK, h: toggle}
   - {t: '$$mdi:keyboard-return$$', h: NAV_SHORTCUTS}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-tab$$
   - RIGHT ALT
   - RIGHT GUI
-  layer1:
+  SYM_NUM:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
