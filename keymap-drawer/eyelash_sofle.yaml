@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: \, s: '|'}
+  - {t: \, h: RIGHT CONTROL, s: '|'}
   - $$mdi:volume-off$$
   - LEFT GUI
   - LEFT ALT
@@ -64,7 +64,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-tab$$
   - RIGHT ALT
-  - RIGHT CONTROL
+  - RIGHT GUI
   layer1:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
