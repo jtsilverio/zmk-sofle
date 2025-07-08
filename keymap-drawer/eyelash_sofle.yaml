@@ -7,7 +7,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - SCROLL UP
+  - $$mdi:arrow-up-bold$$
   - {t: '6', h: CONFIG}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -20,7 +20,7 @@ layers:
   - E
   - R
   - T
-  - SCROLL DOWN
+  - $$mdi:arrow-down-bold$$
   - Y
   - U
   - I
