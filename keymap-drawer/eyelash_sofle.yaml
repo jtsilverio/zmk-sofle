@@ -57,11 +57,11 @@ layers:
   - LEFT GUI
   - LEFT ALT
   - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: SYM_NUM}
+  - {t: '$$mdi:backspace$$', h: SYM_NUM}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: LEFT CONTROL}
   - {t: COLEMAK, h: toggle}
-  - {t: '$$mdi:keyboard-return$$', h: NAV_SHORTCUTS}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', h: RIGHT CONTROL}
+  - {t: '$$mdi:keyboard-space$$', h: NAV_SHORTCUTS}
   - $$mdi:keyboard-tab$$
   - RIGHT ALT
   - RIGHT GUI
@@ -122,8 +122,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -190,8 +190,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
