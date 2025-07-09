@@ -41,18 +41,18 @@ layers:
   - P
   - {t: '''', h: RIGHT SHIFT, s: '"'}
   - LEFT CONTROL
+  - {t: \, s: '|'}
   - Z
   - X
   - C
   - V
-  - B
   - $$mdi:arrow-right-bold$$
+  - B
   - N
   - M
   - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: \, h: RIGHT CONTROL, s: '|'}
+  - .
+  - {t: /, h: RIGHT CONTROL, s: '?'}
   - $$mdi:volume-off$$
   - LEFT GUI
   - LEFT ALT
