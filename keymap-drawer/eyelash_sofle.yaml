@@ -27,7 +27,7 @@ layers:
   - O
   - {t: ;, s: ':'}
   - {t: '=', s: +}
-  - {t: '$$mdi:keyboard-esc$$', h: LEFT SHIFT}
+  - $$mdi:keyboard-esc$$
   - A
   - S
   - D
@@ -40,7 +40,7 @@ layers:
   - L
   - P
   - {t: '''', h: RIGHT SHIFT, s: '"'}
-  - LEFT CONTROL
+  - LEFT SHIFT
   - Z
   - X
   - C
