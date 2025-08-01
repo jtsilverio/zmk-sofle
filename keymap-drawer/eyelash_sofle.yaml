@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - .
   - {t: /, s: '?'}
-  - {t: \, s: '|'}
+  - {t: \, h: RIGHT SHIFT, s: '|'}
   - $$mdi:volume-off$$
   - LEFT ALT
   - LEFT GUI
