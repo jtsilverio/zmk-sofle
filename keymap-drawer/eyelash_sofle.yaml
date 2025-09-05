@@ -57,12 +57,12 @@ layers:
   - LEFT ALT
   - LEFT GUI
   - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:backspace$$', h: SYM_NUM}
+  - {t: '$$mdi:keyboard-return$$', h: SYM_NUM}
   - {t: '$$mdi:backspace-reverse-outline$$', h: LEFT CONTROL}
   - {t: COLEMAK, h: toggle}
-  - {t: '$$mdi:keyboard-return$$', h: LEFT CONTROL}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-space$$', h: NAV_SHORTCUTS}
-  - $$mdi:keyboard-esc$$
+  - RIGHT SHIFT
   - RIGHT GUI
   - RIGHT ALT
   SYM_NUM:
