@@ -151,10 +151,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - Ctl+$$mdi:arrow-left-bold$$
+  - HOME
   - PgDn
   - PgUp
-  - Ctl+$$mdi:arrow-right-bold$$
+  - END
   - $$mdi:backspace-reverse-outline$$
   - ''
   - {t: '$$mdi:transfer$$', type: trans}
