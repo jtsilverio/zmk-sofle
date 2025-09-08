@@ -70,11 +70,11 @@
 
         NAV_SHORTCUTS {
             bindings = <
-&none   &none             &none         &none           &none           &none     &mmv MOVE_UP     &trans        &trans          &trans       &trans         &trans         &trans
-&trans  &kp INSERT        &none         &trans          &trans          &trans    &mmv MOVE_DOWN   &kp LC(LEFT)  &kp PAGE_DOWN   &kp PAGE_UP  &kp LC(RIGHT)  &kp DEL        &none
-&trans  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp UNDER       &trans    &mmv MOVE_LEFT   &kp LEFT      &kp DOWN_ARROW  &kp UP       &kp RIGHT      &kp BACKSPACE  &none
-&trans  &kp C_AC_UNDO     &kp C_AC_CUT  &kp C_AC_COPY   &kp C_AC_PASTE  &trans    &mmv MOVE_RIGHT  &trans        &trans          &sys_reset   &soft_off      &bootloader    &trans
-&trans  &trans            &trans        &trans          &trans          &trans    &mkp LCLK        &trans        &trans          &trans       &trans         &trans
+&none   &none             &none         &none           &none           &none     &mmv MOVE_UP     &trans    &trans          &trans       &trans     &trans         &trans
+&trans  &kp INSERT        &none         &trans          &trans          &trans    &mmv MOVE_DOWN   &kp HOME  &kp PAGE_DOWN   &kp PAGE_UP  &kp END    &kp DEL        &none
+&trans  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp UNDER       &trans    &mmv MOVE_LEFT   &kp LEFT  &kp DOWN_ARROW  &kp UP       &kp RIGHT  &kp BACKSPACE  &none
+&trans  &kp C_AC_UNDO     &kp C_AC_CUT  &kp C_AC_COPY   &kp C_AC_PASTE  &trans    &mmv MOVE_RIGHT  &trans    &trans          &sys_reset   &soft_off  &bootloader    &trans
+&trans  &trans            &trans        &trans          &trans          &trans    &mkp LCLK        &trans    &trans          &trans       &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
