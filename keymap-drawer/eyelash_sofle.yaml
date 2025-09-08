@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: '=', s: +}
-  - $$mdi:keyboard-esc$$
+  - LEFT SHIFT
   - A
   - S
   - D
@@ -39,8 +39,8 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
-  - LEFT SHIFT
+  - {t: '''', h: RIGHT SHIFT, s: '"'}
+  - $$mdi:keyboard-esc$$
   - Z
   - X
   - C
@@ -52,18 +52,18 @@ layers:
   - {t: ',', s: <}
   - .
   - {t: /, s: '?'}
-  - {t: \, h: RIGHT SHIFT, s: '|'}
+  - {t: \, s: '|'}
   - $$mdi:volume-off$$
   - LEFT ALT
   - LEFT GUI
-  - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:keyboard-return$$', h: SYM_NUM}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: LEFT CONTROL}
+  - LEFT SHIFT
+  - {t: '$$mdi:backspace-reverse-outline$$', h: SYM_NUM}
+  - {t: '$$mdi:keyboard-return$$', h: LEFT CONTROL}
   - {t: COLEMAK, h: toggle}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-space$$', h: NAV_SHORTCUTS}
   - RIGHT SHIFT
-  - RIGHT GUI
+  - Alt+$$mdi:keyboard-tab$$
   - RIGHT ALT
   SYM_NUM:
   - {t: '$$mdi:transfer$$', type: trans}
