@@ -58,9 +58,9 @@ layers:
   - LEFT GUI
   - LEFT SHIFT
   - {t: '$$mdi:backspace-reverse-outline$$', h: SYM_NUM}
-  - {t: '$$mdi:keyboard-return$$', h: LEFT CONTROL}
+  - {t: '$$mdi:backspace$$', h: LEFT CONTROL}
   - {t: COLEMAK, h: toggle}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-return$$', h: LEFT CONTROL}
   - {t: '$$mdi:keyboard-space$$', h: NAV_SHORTCUTS}
   - RIGHT SHIFT
   - Alt+$$mdi:keyboard-tab$$

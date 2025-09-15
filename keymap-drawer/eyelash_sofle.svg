@@ -528,7 +528,7 @@ rect.held, rect.combo.held {
 </a></g>
 <g transform="translate(389, 294) rotate(30.0)" class="key keypos-57">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:keyboard-return"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:backspace"/>
 <text x="0" y="24" class="key hold"><tspan style="font-size: 60%">LEFT CONT…</tspan></text>
 </g>
 <g transform="translate(462, 91)" class="key keypos-58">
@@ -537,9 +537,10 @@ rect.held, rect.combo.held {
 <text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 86%">COLEMAK</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
-<g transform="translate(535, 294) rotate(-30.0)" class="key backspace keypos-59">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-9" y="-9" height="18" width="18.0" class="key backspace tap glyph mdi:backspace"/>
+<g transform="translate(535, 294) rotate(-30.0)" class="key keypos-59">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:keyboard-return"/>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 60%">LEFT CONT…</tspan></text>
 </g>
 <g transform="translate(610, 283) rotate(-30.0)" class="key keypos-60">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
